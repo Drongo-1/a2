@@ -1,0 +1,19 @@
+#a{
+  display: none;
+}
+.one{
+  display: flex;
+  flow-from:center;
+  flex-grow: 20;
+  width: 30%;
+  margin-left: 25%;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.two, .three, .four, .five, .six{
+  width: 200px;
+  height: 200px;
+  background: red;
+  margin: 10px
+}
